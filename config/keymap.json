@@ -3,8 +3,8 @@
   "keymap": "default",
   "layout": "LAYOUT",
   "layer_names": [
-    "base",
-    "keypad",
+    "Linux",
+    "Apple",
     "fn",
     "mod"
   ],
