@@ -34,18 +34,18 @@
         default_layer {
             bindings = <
 &kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4  &kp N5  &tog 0                                                                &mo 0       &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R   &kp T   &none                                                                 &none       &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &kp F   &kp G   &none      &kp ESC    &kp HOME              &kp PAGE_UP    &kp RCTRL  &none       &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
+&kp TAB    &kp Q      &kp W     &kp E     &kp R   &kp T   &sl 0                                                                 &none       &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D     &kp F   &kp G   &sl 1      &kp ESC    &kp HOME              &kp PAGE_UP    &kp RCTRL  &none       &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V   &kp B                         &kp LEFT_CONTROL      &kp PAGE_DOWN                         &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
 &mo 0      &kp GRAVE  &kp CAPS  &kp DOWN  &kp UP          &kp SPACE  &kp ENTER  &kp LALT              &kp LCTRL      &kp BSPC   &kp DELETE          &kp LEFT  &kp RIGHT  &kp LBKT  &kp RBKT  &mo 0
             >;
         };
 
-        layer_4 {
+        apple {
             bindings = <
 &kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4  &kp N5  &tog 0                                                                &mo 0       &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R   &kp T   &none                                                                 &none       &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &kp F   &kp G   &none      &kp ESC    &kp LEFT_ALT          &kp PAGE_UP    &kp RCTRL  &none       &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
+&kp TAB    &kp Q      &kp W     &kp E     &kp R   &kp T   &sl 0                                                                 &none       &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D     &kp F   &kp G   &sl 1      &kp ESC    &kp LEFT_ALT          &kp PAGE_UP    &kp RCTRL  &none       &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V   &kp B                         &kp LEFT_CONTROL      &kp PAGE_DOWN                         &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
 &mo 0      &kp GRAVE  &kp CAPS  &kp DOWN  &kp UP          &kp SPACE  &kp ENTER  &kp LEFT_COMMAND      &kp LCTRL      &kp BSPC   &kp DELETE          &kp LEFT  &kp RIGHT  &kp LBKT  &kp RBKT  &mo 0
             >;
